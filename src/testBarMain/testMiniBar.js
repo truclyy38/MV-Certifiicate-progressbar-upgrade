@@ -132,6 +132,7 @@ export function TestMiniBar (){
         }
 
         else{
+            barwidth=0;
             changeintoBackground(id);
             document.getElementById("certified-button-border-change"+id).style.width = 0 + "%";  
              if (object != testdata[id-1]) { setObject(testdata[id-1]); }
